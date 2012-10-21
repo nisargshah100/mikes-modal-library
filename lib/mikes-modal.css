@@ -1,0 +1,58 @@
+/* line 1, ../../app/assets/stylesheets/style.css.scss */
+#mikes-modal {
+  z-index: 9999999999;
+  position: fixed;
+  top: 50%;
+  background-color: white;
+  left: 50%;
+  display: none;
+}
+/* line 8, ../../app/assets/stylesheets/style.css.scss */
+#mikes-modal img {
+  margin-top: -1px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+/* line 13, ../../app/assets/stylesheets/style.css.scss */
+#mikes-modal .description {
+  width: 280px;
+  text-align: left;
+  padding: 10px 30px;
+  vertical-align: top;
+}
+/* line 19, ../../app/assets/stylesheets/style.css.scss */
+#mikes-modal .close {
+  position: absolute;
+  right: 5;
+  cursor: pointer;
+}
+/* line 24, ../../app/assets/stylesheets/style.css.scss */
+#mikes-modal .title {
+  margin-bottom: 0px;
+}
+
+/* line 29, ../../app/assets/stylesheets/style.css.scss */
+#loading-modal {
+  position: absolute;
+  z-index: 9999999999;
+  width: 220px;
+  height: 220px;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -110px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+/* line 41, ../../app/assets/stylesheets/style.css.scss */
+#the-lights {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
